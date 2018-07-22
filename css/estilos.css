@@ -8,11 +8,11 @@ body header h1 {
 	font-weight: bold;
 	color:#0033ff;
 	font-size:20px;
-	text-align: center;
+	text-align: left;
 	text-transform: uppercase;
 }
 
 body {
-	background-image:url(../imagenes/disco.jpg);
+	background-color:white;
 	background-size: cover;
 }
