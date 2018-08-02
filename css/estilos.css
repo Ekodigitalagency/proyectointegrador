@@ -3,16 +3,131 @@
 	padding: 0;	
 	box-sizing: border-box;
 }
-body header h1 {
-	font-family: helvetica; 
-	font-weight: bold;
-	color:#0033ff;
-	font-size:20px;
-	text-align: left;
-	text-transform: uppercase;
+body {
+	background-attachment: fixed;
+	background-size: 40px;
+	background-color:#88E8DD;
+	background-position: bottom;	
+}
+header {
+	padding: 20px;
+	background:rgba(69, 127, 188, 0.7);  
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	position: fixed;
+	width: 100%;
+}
+h1 {
+	color: black;
+	font-family: 'Hanalei Fill', cursive;
+	font-size: 50px;
+	display: inline-block;
+}
+main {
+	width: 100%;
 }
 
-body {
-	background-color:white;
-	background-size: cover;
+header nav ul {
+	list-style: none;
 }
+header nav ul li {
+	display: inline-block;
+	margin: 0 5px;
+	font-size: 25px;	
+}
+header nav ul li a {
+	color:white;
+	font-family: 'Hanalei Fill', cursive; 
+}
+h2 {
+	text-align: center;
+	font-family: 'Hanalei Fill', cursive;
+	padding: 10px;
+	font-size: 40px;
+}
+.discografia {
+	text-align: center;
+	font-family: 'PT Sans', sans-serif;
+}
+.discografia a {
+	display: inline-block;
+	flex-wrap: wrap;
+	justify-content: center;
+	list-style: none;
+}
+.biografia {
+	text-align: center;
+	font-family: 'Hanalei Fill', cursive;
+	padding: 30px;
+	font-size: 40px;
+}
+section.biografia.contenedor {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+.texto1 {
+	padding: 20px;
+	font-size: 20px;
+}
+.texto2 {
+	padding: 20px;
+	font-size: 20px;
+}
+.texto3 {
+	padding: 20px;
+	font-size: 20px;
+}
+.saber {
+	font-size: 25px;
+}
+.eventos {
+	text-align: center;
+	font-family: 'Hanalei Fill', cursive;
+	padding: 20px;
+}
+h4 {
+	font-size: 40px;
+}
+.tabla {
+	width: 60%;
+	margin: auto;
+	font-size: 20px;
+}
+.piepagina {
+	text-align: center;
+	font-family: 'Hanalei Fill', cursive;
+	padding: 30px;
+}
+h5 {
+	font-size: 25px;
+}
+form {
+	padding: 10px;
+	height:50px;
+	display: inline-block;
+	justify-content: center;
+	align-content: center;
+}
+input {
+	text-align: center;
+	margin-bottom: 20px;
+	height: 20px;
+}
+.redes p {
+	color: #fff;
+	font-size: 0.9rem;
+}
+.redes ul {
+	list-style: none;
+	display: flex;
+	justify-content: center;
+}
+.redes ul li {
+	margin: 0 10px;
+}
+.redes ul li a {
+	color: #fff;
+}
+
