@@ -143,6 +143,9 @@ h4 {
 	width: 60%;
 	margin: auto;
 	font-size: 20px;
+	outline: 6px dashed yellow;
+    box-shadow: 0 0 0 6px #FA2A00;
+    animation: 1s animateBorder infinite
 }
 .piepagina {
 	text-align: center;
@@ -180,4 +183,18 @@ input {
 .redes ul li a {
 	color: #fff;
 }
+.tabla {
+  color: black;
+  outline: 10px dashed #F2D694;
+  box-shadow: 0 0 0 10px #FA2A00;
+  animation: 2s animacion ease infinite;
+}
+
+@keyframes animacion {
+  to {
+    outline-color: #FA2A00;
+    box-shadow: 0 0 0 10px #F2D694;
+  }
+}
+
 
