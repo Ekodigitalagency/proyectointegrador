@@ -108,7 +108,7 @@ h2 {
 .biografia {
 	text-align: center;
 	font-family: 'Hanalei Fill', cursive;
-	padding: 30px;
+	padding: 50px;
 	font-size: 40px;
 }
 section.biografia.contenedor {
@@ -134,10 +134,12 @@ section.biografia.contenedor {
 .eventos {
 	text-align: center;
 	font-family: 'Hanalei Fill', cursive;
-	padding: 20px;
+	padding: 50px;
+	width: 100%;
 }
 h4 {
 	font-size: 40px;
+	padding: 20px;
 }
 .tabla {
 	width: 60%;
@@ -151,6 +153,7 @@ h4 {
 	text-align: center;
 	font-family: 'Hanalei Fill', cursive;
 	padding: 30px;
+	border-top: 20px;
 }
 h5 {
 	font-size: 25px;
